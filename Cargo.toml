@@ -1,6 +1,6 @@
 [package]
 name = "wasm"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Max Franke <Max.Franke@vis.uni-stuttgart.de>"]
 edition = "2018"
 description = "Clustering points into clusters with a maximum and minimum radius"
@@ -10,7 +10,7 @@ repository = "https://github.tik.uni-stuttgart.de/frankemx/wasm-clustering"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cfg-if = "0.1.10"
+cfg-if = "0.1.20"
 wasm-bindgen = "0.2.63"
 spade = "1.8.2"
 cgmath = "0.17.0"

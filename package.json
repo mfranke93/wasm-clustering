@@ -1,10 +1,17 @@
 {
   "name": "wasm-clustering",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rust code for clustering locations, compiles to WASM.",
   "main": "pkg/wasm.js",
   "module": "pkg/wasm.js",
   "typings": "pkg/wasm.d.ts",
+  "files": [
+    "pkg/wasm_bg.js",
+    "pkg/wasm_bg.wasm",
+    "pkg/wasm_bg.wasm.d.ts",
+    "pkg/wasm.d.ts",
+    "pkg/wasm.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "wasm-pack build --target bundler",
