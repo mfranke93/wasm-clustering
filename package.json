@@ -1,6 +1,6 @@
 {
   "name": "wasm-clustering",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Rust code for clustering locations, compiles to WASM.",
   "main": "pkg/wasm.js",
   "module": "pkg/wasm.js",
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "wasm-pack build --target bundler",
-    "prepare": "npm run build"
+    "prepare": "npm run build && rm pkg/.gitignore"
   },
   "author": {
     "name": "Max Franke",
