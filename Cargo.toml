@@ -1,6 +1,6 @@
 [package]
 name = "wasm"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Max Franke <Max.Franke@vis.uni-stuttgart.de>"]
 edition = "2018"
 description = "Clustering points into clusters with a maximum and minimum radius"

@@ -1,6 +1,6 @@
 {
   "name": "wasm-clustering",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rust code for clustering locations, compiles to WASM.",
   "main": "pkg/wasm.js",
   "module": "pkg/wasm.js",
