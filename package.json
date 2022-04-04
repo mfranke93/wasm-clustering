@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "wasm-pack build --target bundler --out-dir dist && rm dist/.gitignore"
+    "build": "wasm-pack build --release --target bundler --out-dir dist && rm dist/.gitignore"
   },
   "author": {
     "name": "Max Franke",
