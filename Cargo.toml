@@ -1,11 +1,11 @@
 [package]
 name = "wasm"
-version = "0.1.3"
+version = "0.2.0"
 authors = ["Max Franke <Max.Franke@vis.uni-stuttgart.de>"]
 edition = "2018"
 description = "Clustering points into clusters with a maximum and minimum radius"
 license = "MIT"
-repository = "https://github.tik.uni-stuttgart.de/frankemx/wasm-clustering"
+repository = "https://github.com/mfranke93/wasm-clustering"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

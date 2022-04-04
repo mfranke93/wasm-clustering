@@ -1,0 +1,22 @@
+{
+  "name": "wasm",
+  "collaborators": [
+    "Max Franke <Max.Franke@vis.uni-stuttgart.de>"
+  ],
+  "description": "Clustering points into clusters with a maximum and minimum radius",
+  "version": "0.2.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfranke93/wasm-clustering"
+  },
+  "files": [
+    "wasm_bg.wasm",
+    "wasm.js",
+    "wasm_bg.js",
+    "wasm.d.ts"
+  ],
+  "module": "wasm.js",
+  "types": "wasm.d.ts",
+  "sideEffects": false
+}
